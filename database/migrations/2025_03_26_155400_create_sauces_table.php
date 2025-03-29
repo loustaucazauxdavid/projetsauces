@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('manufacturer'); // Fabricant de la sauce
             $table->text('description'); // Description de la sauce
             $table->string('mainPepper'); // Principal ingrédient épicé de la sauce
-            $table->string('imageUrl'); // URL de l'image de la sauce
+            $table->string('imageUrl')->nullable(); // URL / Chemin de l'image de la sauce
             $table->unsignedTinyInteger('heat'); // Niveau d'épice de 1 à 10
             $table->integer('likes')->default(0); // Nombre de likes
             $table->integer('dislikes')->default(0); // Nombre de dislikes

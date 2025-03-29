@@ -8,11 +8,12 @@ use App\Http\Controllers\Web\HomeController;
 Auth::routes();
 
 // Home Page
-Route::get('/', [HomeController::class, 'index'])->name('web.home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Sauces routes
+Route::get('/sauces', [SaucesController::class, 'index'])->name('web.sauces.index'); // List user's sauces
 
-Route::get('/sauces', [SaucesController::class, 'index'])->name('web.sauces.index'); // List all sauces
+Route::get('/sauces/all', [SaucesController::class, 'index_all'])->name('web.sauces.index.all'); // List all sauces
 
 Route::get('/sauces/create', [SaucesController::class, 'create'])->name('web.sauces.create'); // Show the form to create a new sauce
 

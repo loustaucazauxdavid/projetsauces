@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Projet Sauces'),
+    'name' => env('APP_NAME', 'Hot Takes'),
 
     /*
     |--------------------------------------------------------------------------
