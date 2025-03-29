@@ -1,17 +1,16 @@
 # Hot Takes - Une application web permettant aux utilisateurs de partager et d'évaluer des sauces piquantes
+### Loustau-Cazaux David
+### BUT2 - S4 - 2025
+### Réalisé dans le cadre d'un mini-projet étudiant en BUT Informatique à l'IUT d'Anglet. 
 
-## Loustau-Cazaux David
-## Réalisé dans le cadre d'un mini-projet étudiant en BUT Informatique à l'IUT d'Anglet.
-## BUT2 - S4 - 2025
-
-### Prérequis
+## Prérequis
 
 - PHP
 - Composer
 - NPM
 - Serveur BD. Testé avec MySQL.
 
-### Installation
+## Installation
 
 1. **Cloner le dépôt**
    ```bash
