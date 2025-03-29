@@ -1,6 +1,8 @@
 # Hot Takes - Une application web permettant aux utilisateurs de partager et d'évaluer des sauces piquantes
 
-## Mini-projet étudiant réalisé à l'IUT d'Anglet.
+## Loustau-Cazaux David
+## Réalisé dans le cadre d'un mini-projet étudiant en BUT Informatique à l'IUT d'Anglet.
+## BUT2 - S4 - 2025
 
 ### Prérequis
 
